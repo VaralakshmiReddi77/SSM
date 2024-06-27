@@ -2,6 +2,7 @@ data "aws_region" "current" {}
 data "aws_caller_identity" "current" {}
 data "aws_partition" "current" {}
 
+
 resource "random_id" "id" {
   byte_length = 8
 }
